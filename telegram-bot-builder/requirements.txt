@@ -1,0 +1,3 @@
+# Runtime dependency for LLM-powered analysis and generation.
+# The tool also runs fully offline (heuristic mode) without this installed.
+anthropic>=0.49.0

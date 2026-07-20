@@ -1,0 +1,17 @@
+# The repository root uses a whitelist .gitignore (ignore-everything, then
+# allow specific types). This subproject is Python, so re-include its own
+# source files here — scoped to this directory tree only.
+!*.py
+!*.toml
+!*.txt
+!.env.example
+!.gitignore
+
+# ...but never track secrets, caches, or generated bot output.
+.env
+__pycache__/
+*.pyc
+.venv/
+venv/
+*-telegram-bot/
+.pytest_cache/
